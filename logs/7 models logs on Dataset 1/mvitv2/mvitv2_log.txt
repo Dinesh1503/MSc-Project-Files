@@ -1,0 +1,48 @@
+
+Epoch 0/9, Train Loss: 0.6737, Train Acc: 0.7089, Val Loss: 0.3053, Val Acc: 0.8274
+Starting epoch 1/9
+Epoch 1/9, Train Loss: 0.3845, Train Acc: 0.8487, Val Loss: 0.2117, Val Acc: 0.8577
+Starting epoch 2/9
+Epoch 2/9, Train Loss: 0.2887, Train Acc: 0.8844, Val Loss: 0.1900, Val Acc: 0.8661
+Starting epoch 3/9
+Epoch 3/9, Train Loss: 0.2594, Train Acc: 0.8951, Val Loss: 0.1584, Val Acc: 0.8787
+Starting epoch 4/9
+Epoch 4/9, Train Loss: 0.2201, Train Acc: 0.9148, Val Loss: 0.1843, Val Acc: 0.8672
+Starting epoch 5/9
+Epoch 5/9, Train Loss: 0.2043, Train Acc: 0.9216, Val Loss: 0.1526, Val Acc: 0.8713
+Starting epoch 6/9
+Epoch 6/9, Train Loss: 0.1669, Train Acc: 0.9352, Val Loss: 0.1837, Val Acc: 0.8588
+Starting epoch 7/9
+Epoch 7/9, Train Loss: 0.1725, Train Acc: 0.9344, Val Loss: 0.1761, Val Acc: 0.8640
+Starting epoch 8/9
+Epoch 8/9, Train Loss: 0.1411, Train Acc: 0.9479, Val Loss: 0.2472, Val Acc: 0.8609
+Starting epoch 9/9
+Epoch 9/9, Train Loss: 0.1350, Train Acc: 0.9477, Val Loss: 0.1770, Val Acc: 0.8745
+
+
+
+Test Accuracy: 0.9358
+F1 Score: 0.9360
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.99      0.95      0.97       423
+   Non-COVID       0.90      0.96      0.93       398
+       COVID       0.91      0.89      0.90       331
+
+    accuracy                           0.94      1152
+   macro avg       0.93      0.93      0.93      1152
+weighted avg       0.94      0.94      0.94      1152
+
+
+
+lr=6.75e-5, weight_decay=0.01
+
+batch_size = 64
+
+Length of training dataset: 3840
+Length of validation dataset: 956
+Length of test dataset: 1199
+
+

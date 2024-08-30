@@ -1,0 +1,42 @@
+Starting epoch 0/9
+
+/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+
+Epoch 0/9, Train Loss: 0.7393, Train Acc: 0.6943, Val Loss: 0.5712, Val Acc: 0.7333
+Starting epoch 1/9
+Epoch 1/9, Train Loss: 0.4730, Train Acc: 0.8073, Val Loss: 0.3542, Val Acc: 0.8054
+Starting epoch 2/9
+Epoch 2/9, Train Loss: 0.4203, Train Acc: 0.8292, Val Loss: 0.3944, Val Acc: 0.7981
+Starting epoch 3/9
+Epoch 3/9, Train Loss: 0.3886, Train Acc: 0.8422, Val Loss: 0.4210, Val Acc: 0.8044
+Starting epoch 4/9
+Epoch 4/9, Train Loss: 0.3793, Train Acc: 0.8497, Val Loss: 0.2498, Val Acc: 0.8441
+Starting epoch 5/9
+Epoch 5/9, Train Loss: 0.3164, Train Acc: 0.8742, Val Loss: 0.3088, Val Acc: 0.8201
+Starting epoch 6/9
+Epoch 6/9, Train Loss: 0.3448, Train Acc: 0.8609, Val Loss: 0.6011, Val Acc: 0.6967
+Starting epoch 7/9
+Epoch 7/9, Train Loss: 0.3322, Train Acc: 0.8727, Val Loss: 0.2515, Val Acc: 0.8515
+Starting epoch 8/9
+Epoch 8/9, Train Loss: 0.2924, Train Acc: 0.8888, Val Loss: 0.2156, Val Acc: 0.8525
+Starting epoch 9/9
+Epoch 9/9, Train Loss: 0.2930, Train Acc: 0.8917, Val Loss: 0.2777, Val Acc: 0.8347
+
+
+Test Accuracy: 0.8811
+F1 Score: 0.8783
+Classification Report:
+              precision    recall  f1-score   support
+
+       covid       0.94      0.96      0.95       423
+   non-covid       0.78      0.95      0.86       398
+      normal       0.97      0.69      0.80       331
+
+    accuracy                           0.88      1152
+   macro avg       0.90      0.87      0.87      1152
+weighted avg       0.90      0.88      0.88      1152
+
+
+
+

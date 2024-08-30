@@ -1,0 +1,33 @@
+
+Epoch 0/9, Train Loss: 0.9839, Train Acc: 0.5305, Val Loss: 0.7075, Val Acc: 0.6684
+Epoch 1/9, Train Loss: 0.6865, Train Acc: 0.7289, Val Loss: 0.4640, Val Acc: 0.7709
+Epoch 2/9, Train Loss: 0.5165, Train Acc: 0.8008, Val Loss: 0.3634, Val Acc: 0.7992
+Epoch 3/9, Train Loss: 0.4308, Train Acc: 0.8263, Val Loss: 0.3146, Val Acc: 0.8201
+Epoch 4/9, Train Loss: 0.3584, Train Acc: 0.8654, Val Loss: 0.2873, Val Acc: 0.8243
+Epoch 5/9, Train Loss: 0.3385, Train Acc: 0.8617, Val Loss: 0.2856, Val Acc: 0.8347
+Epoch 6/9, Train Loss: 0.3135, Train Acc: 0.8742, Val Loss: 0.2484, Val Acc: 0.8421
+Epoch 7/9, Train Loss: 0.2765, Train Acc: 0.8930, Val Loss: 0.2461, Val Acc: 0.8515
+Epoch 8/9, Train Loss: 0.2522, Train Acc: 0.9031, Val Loss: 0.2289, Val Acc: 0.8546
+Epoch 9/9, Train Loss: 0.2329, Train Acc: 0.9112, Val Loss: 0.2553, Val Acc: 0.8483
+
+
+Test Accuracy: 0.9210
+
+F1 Score: 0.9217
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.98      0.91      0.94       423
+   Non-COVID       0.93      0.92      0.93       398
+       COVID       0.85      0.93      0.89       331
+
+    accuracy                           0.92      1152
+   macro avg       0.92      0.92      0.92      1152
+weighted avg       0.92      0.92      0.92      1152
+
+
+lr=1e-5, weight_decay=1e-8
+batch size = 64
+
+10 epochs
