@@ -1,0 +1,31 @@
+Epoch 0/9, Train Loss: 0.9178, Train Acc: 0.5917, Val Loss: 0.6559, Val Acc: 0.6939
+Epoch 1/9, Train Loss: 0.6076, Train Acc: 0.7578, Val Loss: 0.4877, Val Acc: 0.7484
+Epoch 2/9, Train Loss: 0.4545, Train Acc: 0.8266, Val Loss: 0.3809, Val Acc: 0.7966
+Epoch 3/9, Train Loss: 0.3796, Train Acc: 0.8562, Val Loss: 0.3334, Val Acc: 0.8124
+Epoch 4/9, Train Loss: 0.3377, Train Acc: 0.8750, Val Loss: 0.3049, Val Acc: 0.8302
+Epoch 5/9, Train Loss: 0.2971, Train Acc: 0.8870, Val Loss: 0.2969, Val Acc: 0.8249
+Epoch 6/9, Train Loss: 0.2780, Train Acc: 0.8974, Val Loss: 0.2951, Val Acc: 0.8270
+Epoch 7/9, Train Loss: 0.2593, Train Acc: 0.9013, Val Loss: 0.2669, Val Acc: 0.8344
+Epoch 8/9, Train Loss: 0.2380, Train Acc: 0.9117, Val Loss: 0.2601, Val Acc: 0.8449
+Epoch 9/9, Train Loss: 0.2212, Train Acc: 0.9182, Val Loss: 0.2764, Val Acc: 0.8291
+
+
+/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+Test Accuracy: 0.8941
+F1 Score: 0.8945
+Classification Report:
+              precision    recall  f1-score   support
+
+    COVID-19       0.97      0.91      0.94       400
+   Non-COVID       0.86      0.93      0.89       400
+      Normal       0.85      0.84      0.85       352
+
+    accuracy                           0.89      1152
+   macro avg       0.89      0.89      0.89      1152
+weighted avg       0.90      0.89      0.89      1152
+
+[[363  10  27]
+ [  6 370  24]
+ [  6  49 297]]
+
